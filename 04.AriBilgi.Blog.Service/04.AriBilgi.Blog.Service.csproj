@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>_04.AriBilgi.Blog.Service</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\01.AriBilgi.Blog.Shared\01.AriBilgi.Blog.Shared.csproj" />
+    <ProjectReference Include="..\02.AriBilgi.Blog.Model\02.AriBilgi.Blog.Model.csproj" />
+    <ProjectReference Include="..\03.AriBilgi.Blog.Data\03.AriBilgi.Blog.Data.csproj" />
+  </ItemGroup>
+
+</Project>
